@@ -6,6 +6,10 @@ nav{
     display: flex;
     justify-content: space-around;
 }
+.icone{
+    height: 50px;
+    width:50px
+}
 .a{
     font-size: 18px;
     text-decoration: none;
