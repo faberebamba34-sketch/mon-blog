@@ -5,6 +5,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 10px;
 }
 .icone{
     height: 50px;
@@ -28,7 +29,7 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
-    height: 35px;
+    height: 45px;
 } 
 
 form{
@@ -79,6 +80,12 @@ p{
 .logo{
     border: 1PX solid transparent;
     border-radius: 1000px;
+}
+iframe,h3,img,form,p{
+    margin-left: 70PX;
+}
+h2,h1{
+    text-align: center;
 }
 @media screen and (max-width:501) {
     img{
@@ -174,6 +181,36 @@ p{
         width: 100%;
     }
     iframe{
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px) {
+    header {
+        width: 100%;
+    }
+}
+@media screen and (max-width:400px) {
+    header {
+        width: 100%;
+    }
+}
+@media screen and (max-width:300px) {
+    header {
+        width: 100%;
+    }
+}
+@media screen and (max-width:450px) {
+    header {
+        width: 100%;
+    }
+}
+@media screen and (max-width:350px) {
+    header {
+        width: 100%;
+    }
+}
+@media screen and (max-width:200px) {
+    header {
         width: 100%;
     }
 }
