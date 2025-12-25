@@ -4,7 +4,7 @@ body{
 }
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .icone{
     height: 50px;
@@ -90,6 +90,9 @@ p{
     .en,header {
         width: 100%;
     }
+    iframe{
+        width: 100%;
+    }
 }
 @media screen and (max-width:1500px)  {
     .en,header {
@@ -109,6 +112,9 @@ p{
         width: 100%;
     }
     .en,header {
+        width: 100%;
+    }
+    iframe{
         width: 100%;
     }
 }
@@ -133,9 +139,15 @@ p{
     .en,header {
         width: 100%;
     }
+    iframe{
+        width: 100%;
+    }
 }
 @media screen and (max-width:375px) {
     header {
+        width: 100%;
+    }
+    iframe{
         width: 100%;
     }
 }
@@ -144,15 +156,24 @@ p{
     header {
         width: 100%;
     }
+    iframe{
+        width: 100%;
+    }
 }
-@media screen and (max-width:375px) {
+@media screen and (max-width:360px) {
     header {
+        width: 100%;
+    }
+    iframe{
         width: 100%;
     }
 }
 
 @media screen and (max-width:250px) {
     header {
+        width: 100%;
+    }
+    iframe{
         width: 100%;
     }
 }
