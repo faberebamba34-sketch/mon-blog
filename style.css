@@ -84,7 +84,7 @@ p{
     border: 1PX solid transparent;
     border-radius: 1000px;
 }
-iframe,h3,img,form,p{
+h3,form,p{
     margin-left: 40PX;
 }
 h2,h1{
